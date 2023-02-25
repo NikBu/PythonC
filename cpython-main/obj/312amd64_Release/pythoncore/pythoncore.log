@@ -1,0 +1,224 @@
+﻿  Killing any running python.exe instances...
+  py -3.9
+  Using PythonForBuild=py -3.9
+  Regenerate Global Objects
+  # not changed: D:\═ютр  яряър\cpython-main\cpython-main\Include\internal\pycore_global_strings.h
+  # not changed: D:\═ютр  яряър\cpython-main\cpython-main\Include\internal\pycore_runtime_init_generated.h
+  # not changed: D:\═ютр  яряър\cpython-main\cpython-main\Include\internal\pycore_unicodeobject_generated.h
+  # not changed: D:\═ютр  яряър\cpython-main\cpython-main\Include\internal\pycore_global_objects_fini_generated.h
+  Generated sources are up to date
+  Getting build info from git
+  fatal: not a git repository (or any of the parent directories): .git
+D:\Новая папка\cpython-main\cpython-main\PCbuild\pythoncore.vcxproj(600,5): warning MSB3073: The command "git name-rev --name-only HEAD > "D:\Новая папка\cpython-main\cpython-main\PCbuild\obj\312amd64_Release\pythoncore\gitbranch.txt"" exited with code 128.
+  fatal: not a git repository (or any of the parent directories): .git
+D:\Новая папка\cpython-main\cpython-main\PCbuild\pythoncore.vcxproj(601,5): warning MSB3073: The command "git rev-parse --short HEAD > "D:\Новая папка\cpython-main\cpython-main\PCbuild\obj\312amd64_Release\pythoncore\gitversion.txt"" exited with code 128.
+  fatal: not a git repository (or any of the parent directories): .git
+D:\Новая папка\cpython-main\cpython-main\PCbuild\pythoncore.vcxproj(602,5): warning MSB3073: The command "git describe --all --always --dirty > "D:\Новая папка\cpython-main\cpython-main\PCbuild\obj\312amd64_Release\pythoncore\gittag.txt"" exited with code 128.
+  Building : 
+  getpath.c
+  _abc.c
+  _bisectmodule.c
+  blake2module.c
+  blake2b_impl.c
+  blake2s_impl.c
+  _codecsmodule.c
+  _collectionsmodule.c
+  _contextvarsmodule.c
+  _csv.c
+  _functoolsmodule.c
+  _heapqmodule.c
+  _json.c
+  _localemodule.c
+  _lsprof.c
+  _pickle.c
+  _randommodule.c
+  sha3module.c
+  sre.c
+  _stat.c
+  _struct.c
+  _weakref.c
+  arraymodule.c
+  atexitmodule.c
+  audioop.c
+  cmathmodule.c
+  _datetimemodule.c
+  errnomodule.c
+  faulthandler.c
+  gcmodule.c
+  itertoolsmodule.c
+  main.c
+  mathmodule.c
+  Hacl_Hash_MD5.c
+  md5module.c
+  mmapmodule.c
+  _opcode.c
+  _operator.c
+  posixmodule.c
+  rotatingtree.c
+  Hacl_Hash_SHA1.c
+  sha1module.c
+  Hacl_Streaming_SHA2.c
+  sha2module.c
+  signalmodule.c
+  _statisticsmodule.c
+  symtablemodule.c
+  _threadmodule.c
+  _tracemalloc.c
+  _typingmodule.c
+  timemodule.c
+  xxsubtype.c
+  _xxsubinterpretersmodule.c
+  _xxinterpchannelsmodule.c
+  fileio.c
+  bytesio.c
+  stringio.c
+  bufferedio.c
+  iobase.c
+  textio.c
+  winconsoleio.c
+  _iomodule.c
+  _codecs_cn.c
+  _codecs_hk.c
+  _codecs_iso2022.c
+  _codecs_jp.c
+  _codecs_kr.c
+  _codecs_tw.c
+  multibytecodec.c
+  _winapi.c
+  abstract.c
+  boolobject.c
+  bytearrayobject.c
+  bytes_methods.c
+  bytesobject.c
+  call.c
+  capsule.c
+  cellobject.c
+  classobject.c
+  codeobject.c
+  complexobject.c
+  descrobject.c
+  dictobject.c
+  enumobject.c
+  exceptions.c
+  fileobject.c
+  floatobject.c
+  frameobject.c
+  funcobject.c
+  genericaliasobject.c
+  genobject.c
+  interpreteridobject.c
+  iterobject.c
+  listobject.c
+  longobject.c
+  memoryobject.c
+  methodobject.c
+  moduleobject.c
+  namespaceobject.c
+  object.c
+  obmalloc.c
+  odictobject.c
+  picklebufobject.c
+  rangeobject.c
+  setobject.c
+  sliceobject.c
+  structseq.c
+  tupleobject.c
+  typeobject.c
+  unicodectype.c
+  unicodeobject.c
+  unionobject.c
+  weakrefobject.c
+  myreadline.c
+  tokenizer.c
+  token.c
+  pegen.c
+  pegen_errors.c
+  action_helpers.c
+  parser.c
+  string_parser.c
+  peg_api.c
+  invalid_parameter_handler.c
+  winreg.c
+  config.c
+  msvcrtmodule.c
+  pyhash.c
+  _warnings.c
+  asdl.c
+  ast.c
+  ast_opt.c
+  ast_unparse.c
+  bltinmodule.c
+  bootstrap_hash.c
+  ceval.c
+  codecs.c
+  compile.c
+  context.c
+  dynamic_annotations.c
+  dynload_win.c
+  errors.c
+  fileutils.c
+  formatter_unicode.c
+  frame.c
+  frozen.c
+  future.c
+  getargs.c
+  getcompiler.c
+  getcopyright.c
+  getopt.c
+  getplatform.c
+  getversion.c
+  ceval_gil.c
+  hamt.c
+  hashtable.c
+  import.c
+  importdl.c
+  initconfig.c
+  intrinsics.c
+  marshal.c
+  modsupport.c
+  mysnprintf.c
+  mystrtoul.c
+  pathconfig.c
+  perf_trampoline.c
+  preconfig.c
+  pyarena.c
+  pyctype.c
+  pyfpe.c
+  pylifecycle.c
+  pymath.c
+  pytime.c
+  pystate.c
+  pystrcmp.c
+  pystrhex.c
+  pystrtod.c
+  dtoa.c
+  Python-ast.c
+  Python-tokenize.c
+  pythonrun.c
+  specialize.c
+  suggestions.c
+  structmember.c
+  symtable.c
+  thread.c
+  traceback.c
+  deepfreeze.c
+  zlibmodule.c
+  adler32.c
+  compress.c
+  crc32.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  dl_nt.c
+  binascii.c
+  getbuildinfo.c
+  sysmodule.c
+  deflate.c
+     Creating library D:\Новая папка\cpython-main\cpython-main\PCbuild\amd64\python312.lib and object D:\Новая папка\cpython-main\cpython-main\PCbuild\amd64\python312.exp
+  Generating code
+  Finished generating code
+  pythoncore.vcxproj -> D:\Новая папка\cpython-main\cpython-main\PCbuild\amd64\python312.dll
