@@ -1,0 +1,5 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(14): warning Msg: Using deprecated NumPy API, disable it with #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+ConsoleApplication2.obj : error LNK2019: unresolved external symbol __imp__Py_NegativeRefcount referenced in function _Py_DECREF
+ConsoleApplication2.obj : error LNK2019: unresolved external symbol __imp__Py_RefTotal referenced in function _Py_DECREF
+D:\Новая папка\3.2К\Нечто\4\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe : fatal error LNK1120: 2 unresolved externals

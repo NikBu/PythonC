@@ -1,10 +1,11 @@
 ﻿// Test.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#define PY_SSIZE_T_CLEAN
 #include <python.h>
 #include <iostream>
 #include <vector>
 #include <numpy/arrayobject.h>
+#include <pybind11.h>
 
 using namespace std;
 
@@ -25,14 +26,23 @@ int main()
     try
     {
         //Работа с Питоном
-        Py_Initialize();//Инициализация
-        import_array(); //Для работты с NpArray
+        //Py_SetPythonHome(L"D:\\NovaPapka\\Python-3.11.2\\PCbuild\\amd64");
+        PyStatus status;
+
+        PyConfig config;
+        config.isolated = 1;
+        config.use_environment=1;
+        config.home = const_cast<wchar_t*>(L"D:\\NovaPapka\\Python-3.11.2\\PCbuild\\amd64");
+        config.pythonpath_env= const_cast<wchar_t*>(L"'', 'D:\\NovaPapka\\Python-3.11.2\\PCbuild\\amd64\\python311.zip', 'D:\\NovaPapka\\Python-3.11.2\\PCbuild\\amd64', 'D:\\NovaPapka\\Python-3.11.2\\Lib', 'D:\\NovaPapka\\Python-3.11.2', 'D:\\NovaPapka\\Python-3.11.2\\Lib\\site-packages'");
+        PyConfig_InitPythonConfig(&config);
+
+        _import_array(); //Для работты с NpArray
 
         PyObject* Py_main = PyImport_AddModule("__main__"); //Работаем с модулем main
         PyObject* Py_ds = PyList_New(10); //Переводим наш массив/Вектор в питон 
         for (int i = 0; i < 10; ++i) //Заполнение списка
         {
-            PyObject* python_int = Py_BuildValue("i", VectorDS[i]);
+            PyObject* python_int = Py_BuildValue("i",VectorDS[i]);
             PyList_SetItem(Py_ds, i, python_int);
         };
         //Код функции обучения
@@ -45,36 +55,36 @@ int main()
             "\tprint('Fit: ',fit)\n"
             "\tprint('Prediction: ',pred)\n"
             "\treturn (pred,fit)\n");
+      
+            PyObject* pFunc = PyObject_GetAttrString(Py_main, "test");//Получение строки функции из кода питон
+            if (pFunc && PyCallable_Check(pFunc)) //Проверка функции
+            {
+                PyObject* pArgs = PyTuple_New(1);//Создание кортежа аргументов функции
+                PyTuple_SetItem(pArgs, 0, Py_ds);//Помещение туда вектора/Массива
+                PyObject* pReturn = PyObject_CallObject(pFunc, pArgs);//Вызов функции
+                Py_DECREF(pFunc);
 
-        PyObject* pFunc = PyObject_GetAttrString(Py_main, "test");//Получение строки функции из кода питон
-        if (pFunc && PyCallable_Check(pFunc)) //Проверка функции
-        {
-            PyObject* pArgs = PyTuple_New(1);//Создание кортежа аргументов функции
-            PyTuple_SetItem(pArgs, 0, Py_ds);//Помещение туда вектора/Массива
-            PyObject* pReturn = PyObject_CallObject(pFunc, pArgs);//Вызов функции
-            Py_DECREF(pFunc);
+                double pred;
+                PyObject* pFit;//Возвращённый fit как PyObject
+                PyArg_ParseTuple(pReturn, "dO", &pred, &pFit);//Разделение значений из полученного кортежа(pred и fit)
+                cout << "Returned Prediction: " << pred << endl;//Вывод предсказания
+                Py_DECREF(pArgs);
+                Py_DECREF(pReturn);
 
-            double pred;
-            PyObject* pFit;//Возвращённый fit как PyObject
-            PyArg_ParseTuple(pReturn, "dO", &pred, &pFit);//Разделение значений из полученного кортежа(pred и fit)
-            cout << "Returned Prediction: " << pred << endl;//Вывод предсказания
-            Py_DECREF(pArgs);
-            Py_DECREF(pReturn);
-
-            vector <double> fit;//Fit как вектор С++
-            cout << "Returned Fit: ";
-            for (int i = 0; i < PyArray_Size(pFit); i++) {
-                fit.push_back(*((double*)PyArray_GETPTR1(pFit, i)));
-                cout << fit[i] << "  ";
+                vector <double> fit;//Fit как вектор С++
+                cout << "Returned Fit: ";
+                for (int i = 0; i < PyArray_Size(pFit); i++) {
+                    fit.push_back(*((double*)PyArray_GETPTR1(pFit, i)));
+                    cout << fit[i] << "  ";
+                }
+                cout << endl;
             }
-            cout << endl;
-        }
 
         Py_Finalize();
     }
     catch (const std::exception&)
     {
-        cout << " Error detected while processing python" << endl;
+        cout <<" Error detected while processing python" << endl;
     }
 
     std::system("pause");

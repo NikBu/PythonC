@@ -1,8 +1,10 @@
 ﻿  ConsoleApplication2.cpp
-C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(14): warning Msg: Using deprecated NumPy API, disable it with #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+D:\NovaPapka\Python-3.11.2\Lib\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(14): warning Msg: Using deprecated NumPy API, disable it with #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+D:\NovaPapka\PyEm\5\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(30,18): warning C4101: 'status': unreferenced local variable
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
   Generating code
-  0 of 133 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  0 of 403 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  ConsoleApplication2.vcxproj -> D:\Новая папка\3.2К\Нечто\3\ConsoleApplication2\x64\Release\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> D:\NovaPapka\PyEm\5\ConsoleApplication2\x64\Release\ConsoleApplication2.exe
