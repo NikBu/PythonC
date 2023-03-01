@@ -1,0 +1,13 @@
+﻿  connection.c
+  cursor.c
+  microprotocols.c
+  module.c
+  prepare_protocol.c
+  row.c
+  statement.c
+  util.c
+  blob.c
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_sqlite3.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_sqlite3.exp
+  Generating code
+  Finished generating code
+  _sqlite3.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_sqlite3.pyd

@@ -1,0 +1,21 @@
+﻿  Performing Custom Build Tools
+   Assembling: D:\NovaPapka\Python-3.11.2\Modules\_decimal\libmpdec\vcdiv64.asm
+  _decimal.c
+  basearith.c
+  constants.c
+  context.c
+  convolute.c
+  crt.c
+  difradix2.c
+  fnt.c
+  fourstep.c
+  io.c
+  mpalloc.c
+  mpdecimal.c
+  numbertheory.c
+  sixstep.c
+  transpose.c
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_decimal.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_decimal.exp
+  Generating code
+  Finished generating code
+  _decimal.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_decimal.pyd

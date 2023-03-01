@@ -1,0 +1,8 @@
+﻿  _testcapimodule.c
+D:\NovaPapka\Python-3.11.2\Modules\_testcapimodule.c(6182,9): warning C4244: 'function': conversion from 'Py_ssize_t' to 'int', possible loss of data
+D:\NovaPapka\Python-3.11.2\Modules\_testcapimodule.c(6184,9): warning C4244: 'function': conversion from 'Py_ssize_t' to 'int', possible loss of data
+D:\NovaPapka\Python-3.11.2\Modules\_testcapimodule.c(6186,9): warning C4244: 'function': conversion from 'Py_ssize_t' to 'int', possible loss of data
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_testcapi.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_testcapi.exp
+  Generating code
+  Finished generating code
+  _testcapi.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_testcapi.pyd

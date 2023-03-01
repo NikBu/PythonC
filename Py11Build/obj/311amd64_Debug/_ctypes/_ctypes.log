@@ -1,0 +1,8 @@
+﻿  _ctypes.c
+  callbacks.c
+  callproc.c
+  cfield.c
+  malloc_closure.c
+  stgdict.c
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_ctypes_d.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_ctypes_d.exp
+  _ctypes.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_ctypes_d.pyd

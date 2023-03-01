@@ -1,0 +1,7 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(14): warning Msg: Using deprecated NumPy API, disable it with #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 402 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ConsoleApplication2.vcxproj -> D:\NovaPapka\HM\ConsoleApplication2\x64\Release\ConsoleApplication2.exe

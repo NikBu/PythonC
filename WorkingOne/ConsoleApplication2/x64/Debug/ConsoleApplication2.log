@@ -1,0 +1,39 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\admin\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(14): warning Msg: Using deprecated NumPy API, disable it with #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+ConsoleApplication2.obj : error LNK2019: unresolved external symbol __imp__Py_NegativeRefcount referenced in function _Py_DECREF
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+ConsoleApplication2.obj : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(_tolower.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol _free_dbg
+ConsoleApplication2.obj : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+ConsoleApplication2.obj : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+ConsoleApplication2.obj : error LNK2001: unresolved external symbol _CrtDbgReport
+libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+ConsoleApplication2.obj : error LNK2019: unresolved external symbol __imp__Py_RefTotal referenced in function _Py_DECREF
+libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol _wcsdup_dbg referenced in function _Getctype
+libcpmtd.lib(xstrcoll.obj) : error LNK2001: unresolved external symbol _wcsdup_dbg
+libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol _realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned __int64)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z)
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2019: unresolved external symbol _CrtDbgReportW referenced in function _freea_crt
+libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+D:\Новая папка\3.2К\Нечто\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe : fatal error LNK1120: 9 unresolved externals

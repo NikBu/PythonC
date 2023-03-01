@@ -1,0 +1,6 @@
+﻿  pyexpat.c
+  xmlparse.c
+  xmlrole.c
+  xmltok.c
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\pyexpat_d.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\pyexpat_d.exp
+  pyexpat.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\pyexpat_d.pyd

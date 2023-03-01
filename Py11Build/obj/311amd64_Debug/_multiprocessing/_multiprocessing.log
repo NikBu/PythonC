@@ -1,0 +1,4 @@
+﻿  multiprocessing.c
+  semaphore.c
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_multiprocessing_d.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_multiprocessing_d.exp
+  _multiprocessing.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_multiprocessing_d.pyd

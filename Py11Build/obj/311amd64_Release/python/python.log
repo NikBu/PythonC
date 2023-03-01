@@ -1,0 +1,14 @@
+﻿  python.c
+  Generating code
+  Finished generating code
+  python.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\python.exe
+  Traceback (most recent call last):
+    File "D:\NovaPapka\Python-3.11.2\PC\validate_ucrtbase.py", line 8, in <module>
+      from ctypes import (c_buffer, POINTER, byref, create_unicode_buffer,
+    File "D:\NovaPapka\Python-3.11.2\Lib\ctypes\__init__.py", line 8, in <module>
+      from _ctypes import Union, Structure, Array
+  ImportError: DLL load failed while importing _ctypes: %1 эх  ты хЄё  яЁшыюцхэшхь Win32.
+D:\NovaPapka\Python-3.11.2\PCbuild\python.vcxproj(130,5): warning MSB3073: The command "setlocal
+D:\NovaPapka\Python-3.11.2\PCbuild\python.vcxproj(130,5): warning MSB3073: set PYTHONPATH=D:\NovaPapka\Python-3.11.2\Lib
+D:\NovaPapka\Python-3.11.2\PCbuild\python.vcxproj(130,5): warning MSB3073: "D:\NovaPapka\Python-3.11.2\PCbuild\amd64\python.exe" "D:\NovaPapka\Python-3.11.2\PC\validate_ucrtbase.py" ucrtbase" exited with code 1.
+  Wrote D:\NovaPapka\Python-3.11.2\PCbuild\amd64\LICENSE.txt

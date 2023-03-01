@@ -1,0 +1,6 @@
+﻿  _elementtree.c
+  xmlparse.c
+  xmlrole.c
+  xmltok.c
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_elementtree_d.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_elementtree_d.exp
+  _elementtree.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_elementtree_d.pyd

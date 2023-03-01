@@ -1,0 +1,6 @@
+﻿  multiprocessing.c
+  semaphore.c
+     Creating library D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_multiprocessing.lib and object D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_multiprocessing.exp
+  Generating code
+  Finished generating code
+  _multiprocessing.vcxproj -> D:\NovaPapka\Python-3.11.2\PCbuild\amd64\_multiprocessing.pyd
